@@ -1,0 +1,15 @@
+{
+    "name": "transform-extension",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "license": "ISC",
+    "keywords": [
+        "swc-plugin"
+    ],
+    "main": "transform_extension.wasm",
+    "scripts": {
+        "build": "cargo build-wasi --release && cp target/wasm32-wasi/release/transform_extension.wasm ."
+    },
+    "files": []
+}

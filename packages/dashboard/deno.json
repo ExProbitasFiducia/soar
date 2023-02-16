@@ -1,0 +1,6 @@
+{
+    "tasks": {
+        "build": "swc compile --config-file=swcconfig.json src --out-dir=./dist",
+        "build:map": "swc compile --config-file=swcconfig.mapped.json src --out-dir=./dist"
+    }
+}

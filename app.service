@@ -1,0 +1,10 @@
+[Unit]
+Description=Deno Platform
+
+[Service]
+ExecStart=/usr/local/bin/deno run --allow-net --allow-read /srv/platform
+User=deno
+WorkingDirectory=/tmp/deno
+
+[Install]
+WantedBy=multi-user.target

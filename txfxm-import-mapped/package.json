@@ -1,0 +1,19 @@
+{
+    "name": "txfxm-import-mapped",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "license": "ISC",
+    "keywords": [
+        "swc-plugin"
+    ],
+    "main": "target/wasm32-wasi/release/txfxm_import_mapped.wasm",
+    "scripts": {
+        "example": "node example/example.js",
+        "prepublishOnly": "cargo build-wasi --release && cp target/wasm32-wasi/release/txfxm_import_mapped.wasm ."
+    },
+    "files": [],
+    "dependencies": {
+        "@swc/core": "^1.3.35"
+    }
+}

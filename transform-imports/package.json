@@ -1,0 +1,19 @@
+{
+    "name": "transform-extension",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "license": "ISC",
+    "keywords": [
+        "swc-plugin"
+    ],
+    "main": "transform_extension.wasm",
+    "scripts": {
+        "example": "node example/example.js",
+        "build": "cargo build --target wasm32-unknown-unknown --release && cp target/wasm32-wasi/release/transform_imports.wasm ."
+    },
+    "files": [],
+    "dependencies": {
+        "@swc/core": "^1.3.35"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "dashboard",
+    "packageManager": "yarn@3.3.1",
+    "dependencies": {
+        "@swc/cli": "^0.1.61",
+        "@swc/core": "^1.3.32",
+        "react": "^18.2.0"
+    },
+    "scripts": {
+        "build": "swc compile ./src  --out-dir ./dist-web"
+    }
+}

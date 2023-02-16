@@ -1,0 +1,9 @@
+
+                                    import_map: {
+                                        imports: [
+                                            {
+                                                specifier: "r",
+                                                mapping: "react"
+                                            }
+                                        ]
+                                    }
